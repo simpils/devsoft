@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simpils | Web Application Development Company</title>
+
+    <meta
+        name="description"
+        content="Simpils is an IT company specializing in modern, scalable and user-friendly web application development."
+    >
+
+    <meta
+        name="keywords"
+        content="Simpils, web application development, IT company, web development, software development"
+    >
+
+    <meta name="author" content="Simpils">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#home">
+                Simpils<span>.</span>
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#process">Process</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <a href="#contact" class="btn btn-primary ms-lg-4">
+                    Let's Talk
+                </a>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section-padding">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+           <h1>
+                   AB
+                </h1>
+
+                <h2>
+                    Turning ideas into
+                    <span>powerful web experiences.</span>
+                </h2>
+
+                <p>
+                    At Simpils, we transform business ideas into reliable
+                    digital products. Our team focuses on clean design,
+                    efficient development and scalable technology.
+                </p>
+
+                <p>
+                    From simple business platforms to complex web
+                    applications, we build solutions designed around
+                    real business needs.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Work with us
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="about-box">
+
+                    <div class="about-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <h3>Modern Development</h3>
+
+                    <p>
+                        We use modern development practices to create
+                        fast, responsive and maintainable web applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-lg-5">
+
+                <a href="#home" class="footer-logo">
+                    Simpils<span>.</span>
+                </a>
+
+                <p>
+                    Building modern web applications that help
+                    businesses move forward.
+                </p>
+
+            </div>
+
+
+            <div class="col-6 col-lg-2">
+
+                <h4>Company</h4>
+
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#process">Process</a>
+
+            </div>
+
+
+            <div class="col-6 col-lg-2">
+
+                <h4>Services</h4>
+
+                <a href="#services">Web Applications</a>
+                <a href="#services">Responsive Design</a>
+                <a href="#services">Optimization</a>
+
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <h4>Follow Us</h4>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Simpils. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
